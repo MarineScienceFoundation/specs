@@ -20,6 +20,13 @@ Some day we will hopefully transform these specs into RFCs. For now, they assume
 
 ## Works In Progress Specifications
 
+**Specs are not finished yet. We use the following tag system to identify their state:**
+
+- ![](https://img.shields.io/badge/status-wip-orange.svg?style=flat-square) - this spec is a work-in-progress, it is likely not even complete.
+- ![](https://img.shields.io/badge/status-draft-yellow.svg?style=flat-square) - this spec is a rough draft and will likely change substantially.
+- ![](https://img.shields.io/badge/status-reliable-green.svg?style=flat-square) - this spec is believed to be close to final. Minor changes only.
+- ![](https://img.shields.io/badge/status-stable-brightgreen.svg?style=flat-square) - this spec is likely to improve, but not change fundamentally.
+- ![](https://img.shields.io/badge/status-permanent-blue.svg?style=flat-square) - this spec will not change.
 ## Specs
 ## OpenData
 ## SeriesData
