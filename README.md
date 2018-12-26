@@ -1,4 +1,4 @@
-# Tec# Specifications
+# Tech Specifications
 
 > This repository contains the specs for Marine Science Foundation projects and associated subsystems.
 
