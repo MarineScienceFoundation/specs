@@ -37,3 +37,6 @@ Some day we will hopefully transform these specs into RFCs. For now, they assume
 Suggestions, contributions, criticisms are welcome. Though please make sure to familiarize yourself deeply with the Marine Science Foundation, the models it adopts, and the principles it follows.
 
 Please be aware that specs are really hard to design by committee. Treat this space like you would the workshop of an artist. Please suggest improvements, but please don't be disappointed if we say no to something. What we leave out is often more important than what we add in.
+
+## License
+TBD, IPFS seems to have converged on CC-BY
