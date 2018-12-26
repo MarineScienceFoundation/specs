@@ -19,7 +19,7 @@ Some day we will hopefully transform these specs into RFCs. For now, they assume
 - [License](#license)
 
 ## Works In Progress Specifications
-
+https://img.shields.io/badge/made%20by-Marine%20Science%20Foudation-blue.svg
 **Specs are not finished yet. We use the following tag system to identify their state:**
 
 - ![](https://img.shields.io/badge/status-wip-orange.svg?style=flat-square) - this spec is a work-in-progress, it is likely not even complete.
