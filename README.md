@@ -1,5 +1,5 @@
 # Tech Specifications
-![](media-artifacts/MSF_Fish.png)
+![](media-artifacts/MSF%20Fish.png)
 > This repository contains the specs for Marine Science Foundation projects and associated subsystems.
 
 Some day we will hopefully transform these specs into RFCs. For now, they assume a high level of familiarity with the concepts.
