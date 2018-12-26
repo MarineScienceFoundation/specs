@@ -6,7 +6,7 @@ Some day we will hopefully transform these specs into RFCs. For now, they assume
 
 ## Table of Contents
 
-- [Works In Progress](#works-in-progress)
+- [Works In Progress](#works in progress)
 - [Specs](#specs)
   - [High level Architecture of Open Data Concepts](#OpenData)
   - [Open Data](#OpenData) 
