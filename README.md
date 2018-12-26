@@ -13,7 +13,7 @@ Some day we will hopefully transform these specs into RFCs. For now, they assume
     - [OpenData Repo](https://github.com/MarineScienceFoundation/SeriesData)
   - [Series Data](#SeriesData) 
     - [SeriesData Repo](https://github.com/MarineScienceFoundation/SeriesData)
-  - [libp2p](https://github.com/libp2p/specs): we find this very important to our work. 
+  - [libp2p](https://github.com/libp2p/specs): We find this very important to our work. 
     - [IPRS](https://github.com/libp2p/specs/blob/master/IPRS.md)
 - [Contribute](#contribute)
 - [License](#license)
