@@ -2,18 +2,18 @@
 ![](media-artifacts/MSF_Fishsmall.png)
 > This repository contains the specs for Marine Science Foundation projects and associated subsystems.
 
-Some day we will hopefully transform these specs into RFCs. For now, they assume a high level of familiarity with the concepts.
+# Abstract
+The underlying motivation for these project is to make collecting, storing, disemmination, and verification of scientific data easy. Data can be easily manipulated when source data is private, or worse cherry-picked. We are expecting to collect and generate large amounts of scientific data. Data storage and digitial data rot is a problem we are tackling before collecting any data. [OpenData](#OpenData) refers the the overall goals regarding collection and dissemination. [SeriesData](#SeriesData) is a particular implementation for sample based data collection and immutability. We will use a simple example of a weather station data to provide an example and methodology. 
 
 ## Table of Contents
 
 - Works In Progress
 - [Specs](#specs)
-  - [High level Architecture of Open Data Concepts](#OpenData)
-  - [Open Data](#OpenData) 
+  - [Open Data Concepts](#OpenData): Overarching Data Handling Guidance
     - [OpenData Repo](https://github.com/MarineScienceFoundation/SeriesData)
-  - [Series Data](#SeriesData) 
+  - [Series Data](#SeriesData): Example implementations for sample data
     - [SeriesData Repo](https://github.com/MarineScienceFoundation/SeriesData)
-  - [libp2p](https://github.com/libp2p/specs): We find this very important to our work. 
+  - [libp2p](https://github.com/libp2p/specs): IPFS based library, Concepts important to project 
     - [IPRS](https://github.com/libp2p/specs/blob/master/IPRS.md)
 - [Contribute](#contribute)
 - [License](#license)
