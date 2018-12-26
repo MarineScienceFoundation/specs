@@ -19,8 +19,6 @@ Some day we will hopefully transform these specs into RFCs. For now, they assume
 - [License](#license)
 
 ## Works In Progress Specifications
-[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)
-[![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
 [![](https://img.shields.io/badge/made%20by-Marine%20Science%20Foudation-blue.svg?style=flat-square)](http://github.com/MarineScienceFoundation)
 
 **Specs are not finished yet. We use the following tag system to identify their state:**
