@@ -46,10 +46,18 @@ The underlying motivation for these project is to make collecting, storing, dise
 - Each Sample/record is verified with a cryptographic hash
 - This first sample is considered the genesis record. It needs some special properties
   - Information regarding the originator
-    - Public Key
-  - Time hack
+    - Public Key - Originator: For Location and Signature
+    - Public Key - Sensor: Optional
+    - Data Storage Location
+  - Time hack 
+    - New Project 
   - Sensor Information
-  
+    - Examples:
+    - Geolocation
+    - Manufacture
+    - Website
+    - Data Storage Format
+    
 ## Contribute
 
 Suggestions, contributions, criticisms are welcome. Though please make sure to familiarize yourself deeply with the Marine Science Foundation, the models it adopts, and the principles it follows.
