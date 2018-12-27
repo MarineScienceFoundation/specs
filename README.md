@@ -32,9 +32,24 @@ The underlying motivation for these project is to make collecting, storing, dise
 ![](https://img.shields.io/badge/status-wip-orange.svg?style=flat-square) 
 ## OpenData 
 ![](https://img.shields.io/badge/status-wip-orange.svg?style=flat-square) 
+- Data should be accessable equally by all users. 
+- Access to data should be free in most cases
+- All pay the same, IPFS and Filecoin should fix this
+- Data needs to be verifiable and referenceable 
+
 ## SeriesData 
 ![](https://img.shields.io/badge/status-wip-orange.svg?style=flat-square)
-
+- Data is assumed to be collected in samples/record
+- Samples are not DSP samples, but small data blobs. 
+- Initial work will be done on comma separated values (CSV) 
+  - Sample/record in this case in one line in the CSV. 
+- Each Sample/record is verified with a cryptographic hash
+- This first sample is considered the genesis record. It needs some special properties
+  - Information regarding the originator
+    - Public Key
+  - Time hack
+  - Sensor Information
+  
 ## Contribute
 
 Suggestions, contributions, criticisms are welcome. Though please make sure to familiarize yourself deeply with the Marine Science Foundation, the models it adopts, and the principles it follows.
