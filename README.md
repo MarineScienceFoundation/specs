@@ -28,9 +28,12 @@ The underlying motivation for these project is to make collecting, storing, dise
 - ![](https://img.shields.io/badge/status-reliable-green.svg?style=flat-square) - this spec is believed to be close to final. Minor changes only.
 - ![](https://img.shields.io/badge/status-stable-brightgreen.svg?style=flat-square) - this spec is likely to improve, but not change fundamentally.
 - ![](https://img.shields.io/badge/status-permanent-blue.svg?style=flat-square) - this spec will not change.
-## Specs ![](https://img.shields.io/badge/status-wip-orange.svg?style=flat-square) 
-## OpenData ![](https://img.shields.io/badge/status-wip-orange.svg?style=flat-square) 
-## SeriesData ![](https://img.shields.io/badge/status-wip-orange.svg?style=flat-square)
+## Specs 
+![](https://img.shields.io/badge/status-wip-orange.svg?style=flat-square) 
+## OpenData 
+![](https://img.shields.io/badge/status-wip-orange.svg?style=flat-square) 
+## SeriesData 
+![](https://img.shields.io/badge/status-wip-orange.svg?style=flat-square)
 
 ## Contribute
 
