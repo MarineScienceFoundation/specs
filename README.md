@@ -39,6 +39,25 @@ The underlying motivation for these project is to make collecting, storing, dise
 
 ## SeriesData 
 ![](https://img.shields.io/badge/status-wip-orange.svg?style=flat-square)
+
+Series data is defined as data that is collected in a monotonic fashion. The data set may have any number of entries, but specific order matters. Interpreting data by selecting (cherry picking) data to get desired outcomes is considered bad science. Additionally, manipulating data by smoothing, biasing, etc can also cause great controversy. At MSF we are trying to bring accountability to data mashing for scientists. Both the data producers and the data users. We are building on years of Public Key Cryptography, IPFS technology, and Block Chain tools. 
+
+In the simplest case. A scientist would register on IPFS for an address as a reference for building reputation on. The scientist would then use a proof of transaction on a Block Chain such as Bitcoin or Etherum to establish an identity for themselves, an experiment, or sensor. In the case of a sensor, the transaction would establish the initial measurement using a nonce included in the transaction. This can be thought of as a genesis code or has for the identity. 
+
+Next the identity needs to post a measurement, paper, or other piece of data. The genesis code is used to prepend the data in question, a cryptographic hash is then unsed to close the data entry. in the format:
+<code>
+  Genesis hash, data to be added, Crypto-hash of (Genesis + data-to-be-added)
+  Previous-Crypto-Hash, new data to be added, Crypto-Hash (Previous-Crypto-Hash, new data to be added) 
+  ... 
+</code>
+This pattern goes on until a proof-of-transaction can be added to the list. The proof-of-transaction hash is called Transaction-Hash 
+
+[Merkle Tree] This is were a link about MerkleTrees and proof of order comes in. 
+
+The particular Hash is not called out, so that as exploits or weaknesses in a particular hash functions are found new hash-functions can be easily inserted. This is following in the [IPFS](ipfs.io) example.  
+
+It is most easily understood as time series data. The order of the data collected is extremely important to the meaning of the data. 
+
 - Data is assumed to be collected in samples/record
 - Samples are not DSP samples, but small data blobs. 
 - Initial work will be done on comma separated values (CSV) 
