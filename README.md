@@ -46,11 +46,9 @@ In the simplest case. A scientist would register on IPFS for an address as a ref
 
 Next the identity needs to post a measurement, paper, or other piece of data. The genesis code is used to prepend the data in question, a cryptographic hash is then unsed to close the data entry. in the format:
 <p>
-<code>
-  Genesis hash, data to be added, Crypto-hash of (Genesis + data-to-be-added)
-  Previous-Crypto-Hash, new data to be added, Crypto-Hash (Previous-Crypto-Hash, new data to be added) 
-  ... 
-</code>
+* Genesis hash, data to be added, Crypto-hash of (Genesis + data-to-be-added)
+* Previous-Crypto-Hash, new data to be added, Crypto-Hash (Previous-Crypto-Hash, new data to be added) 
+* ... 
 </p>
  
 This pattern goes on until a proof-of-transaction can be added to the list. The proof-of-transaction hash is called Transaction-Hash 
