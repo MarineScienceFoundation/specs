@@ -45,11 +45,10 @@ Series data is defined as data that is collected in a monotonic fashion. The dat
 In the simplest case. A scientist would register on IPFS for an address as a reference for building reputation on. The scientist would then use a proof of transaction on a Block Chain such as Bitcoin or Etherum to establish an identity for themselves, an experiment, or sensor. In the case of a sensor, the transaction would establish the initial measurement using a nonce included in the transaction. This can be thought of as a genesis code or has for the identity. 
 
 Next the identity needs to post a measurement, paper, or other piece of data. The genesis code is used to prepend the data in question, a cryptographic hash is then unsed to close the data entry. in the format:
-<p>
-* Genesis hash, data to be added, Crypto-hash of (Genesis + data-to-be-added)
-* Previous-Crypto-Hash, new data to be added, Crypto-Hash (Previous-Crypto-Hash, new data to be added) 
-* ... 
-</p>
+
+1. Genesis hash, data to be added, Crypto-hash of (Genesis + data-to-be-added)
+2.  Previous-Crypto-Hash, new data to be added, Crypto-Hash (Previous-Crypto-Hash, new data to be added) 
+3.  ... 
  
 This pattern goes on until a proof-of-transaction can be added to the list. The proof-of-transaction hash is called Transaction-Hash 
 
